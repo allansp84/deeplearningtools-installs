@@ -1,6 +1,6 @@
-# deeplearningtools-installs
+# Deep Learning Tools - Script Installs
 
-## Ambiente Virtuais para Desenvolvimento Python
+### Ambiente Virtuais para Desenvolvimento Python
 
 Ambientes virtuais é uma ferramenta que nos permite criar ambientes virtuais de desenvolvimento para projetos Python permitindo o trabalho em diferentes projetos paralelamente, mesmo que os projetos tenham dependências conflitantes. Os ambientes virtuais nos auxiliam no gerenciamento de quais módulos e versões estão sendo usados em cada projeto e também facilita a instalação de módulos usando  o pip, instalador de módulos python multiplataforma, sem que o tenha privilégios de root.
 
@@ -14,7 +14,7 @@ Quando criamos um ambiente virtual, é criado uma estrutura de diretório e as v
 4. Permite criar uma lista de dependência para cada projeto, facilitando a reproducibilidade de seus projetos.
 
 
-Virtualenv e Virtualenvwrapper
+### Virtualenv e Virtualenvwrapper
 
 Virtualenv é uma ferramenta que nos permite criar  e gerenciar ambientes virtuais.  Entretanto, existem um extensão desta ferramenta, o virtualenvwrapper, que facilitam muito o trabalho de criação e gerenciamento dos ambientes virtuais, além de organizar todo o ambiente em um só lugar. O virtualenvwrapper nos fornece uma série de comando úteis para gerenciar os ambientes virtuais, sendo que os principais comandos são:
 mkvirtualenv project_deep – Cria um ambiente virtual com o nome project_deep;
@@ -25,8 +25,13 @@ deactive – Desativa o ambiente virtual
 Mais informações sobre este e outros comandos podem ser obtidas em http://virtualenvwrapper.readthedocs.org/en/latest/index.html
 
 
-Ferramentas para Deep Learning
+### Ferramentas para Deep Learning
 
-Atualmente, existem vários frameworks para desenvolvimento de pesquisa em Deep Learning. Estes scripts quatro ambientes que nos permitem trabalhar com as seguintes ferramentas: Theano, Caffe, e Simple-HP.  Segue abaixo uma breve descrição 
-Theano:
+Atualmente, existem vários frameworks para desenvolvimento de pesquisa em Deep Learning. Os scripts fornecido por este repositório permite configurar ambientes virtuais para as ferramentas: Theano, Caffe, e Simple-hp.
+
+#### Theano
+
+#### Caffe
+
+#### Simple-hp
 
