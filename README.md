@@ -27,7 +27,8 @@ Mais informações sobre este e outros comandos podem ser obtidas em http://virt
 
 Os scripts disponíveis devem ser executados na ordem que segue:
 
->> ./1_install_dependences.sh
+>> ./1_install_dependences.sh # reinicia a seção de login (deslogando e logando novamente) para que as dependências seja reconhecida pelo sistema 
+>>
 >> ./2_install_caffe.sh
 
 
