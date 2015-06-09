@@ -10,6 +10,9 @@ Virtualenv é uma ferramenta que nos permite criar e gerenciar ambientes virtuai
 4. A geração de lista de dependências de um projeto (modulos e suas respectivas versões), algo importante para a reproducibilidade do projeto.
 
 
+
+Mais informações sobre este e outros comandos podem ser obtidas em https://virtualenv.pypa.io/en/stable/
+
 ### Virtualenvwrapper
 
 Virtualenvwrapper é uma extensão do Virtualenv que simplifica a criação e o gerenciamento de ambientes virtuais, fornecendo uma série de comandos de fácil utilização. Os principais comandos disponibilizados pelo Virtualenvwrapper são:
@@ -26,7 +29,7 @@ Mais informações sobre este e outros comandos podem ser obtidas em http://virt
 ### Instalação
 
 Os scripts disponíveis devem ser executados na ordem que segue:
-
+```
 > 1. Execute o script *install_dependences.sh* para instalar as dependências;
 
 > 2. Reinicie a seção do bash para que as dependências seja reconhecida pelo sistema;
@@ -36,6 +39,7 @@ Os scripts disponíveis devem ser executados na ordem que segue:
 > 4. Execute o script *install_theano.sh* para instalar o Theano e suas dependências de modulos python no ambiente virtual **theano-env**;
 
 > 5. Execute o script *install_simplehp.sh* para instalar o Simple-Hp  e suas dependências de modulos python  no ambiente virtual **simplehp-env**. Esta ferramenta é usado para otimizações de arquiteturas "deep".
+```
 
 Estes scripts instala no diretório /home/user/local os seguintes softwares:
 
