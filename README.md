@@ -25,6 +25,12 @@ Mais informações sobre este e outros comandos podem ser obtidas em http://virt
 
 ### Instalação
 
+Os scripts disponíveis devem ser executados na ordem que segue:
+
+>> ./1_install_dependences.sh
+>> ./2_install_caffe.sh
+
+
 Estes scripts instala no diretório /home/user/local os seguintes softwares:
 
 * Torch7;
