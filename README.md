@@ -27,12 +27,15 @@ Mais informações sobre este e outros comandos podem ser obtidas em http://virt
 
 Os scripts disponíveis devem ser executados na ordem que segue:
 
-> Execute o script **1_install_dependences.sh**
+> 1. Execute o script *1_install_dependences.sh*
 
-> Reinicia a seção do bash para que as dependências seja reconhecida pelo sistema.
+> 2. Reinicia a seção do bash para que as dependências seja reconhecida pelo sistema.
 
-> ./2_install_caffe.sh
+> 3. *install_caffe.sh*
 
+> 4. *install_theano.sh*
+
+> 5. *install_simplehp.sh*
 
 Estes scripts instala no diretório /home/user/local os seguintes softwares:
 
