@@ -29,7 +29,7 @@ Os scripts disponíveis devem ser executados na ordem que segue:
 
 > 1. Execute o script *install_dependences.sh* para instalar as dependências;
 
-> 2. Reinicia a seção do bash para que as dependências seja reconhecida pelo sistema;
+> 2. Reinicie a seção do bash para que as dependências seja reconhecida pelo sistema;
 
 > 3. Execute o script *install_caffe.sh* para instalar o framework Caffe e suas dependências de modulos python no ambiente virtual **caffe-env**;
 
