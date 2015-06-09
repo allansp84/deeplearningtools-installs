@@ -9,8 +9,6 @@
 # delete the variables defined in your ~/.bashrc.                               #
 #*******************************************************************************#
 
-
-
 PREFIX_INSTALL=$HOME/local
 
 DOWNLOAD_PACKAGES=/work/$USER/_recod_downloads_

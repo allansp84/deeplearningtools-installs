@@ -8,12 +8,10 @@
 # http://caffe.berkeleyvision.org/                                              #
 #                                                                               #
 #                                                                               #
-#                                                                               #
 # PS: To undo the installation, plase execute the command                       #
 # rm -rf ~/devel/caffe-env/caffe and delete the two variables defined in        #
 # your ~/.bashrc.                                                               #
 #*******************************************************************************#
-
 
 VENV_NAME=caffe-env
 PROJECT_DIR=$HOME/devel/$VENV_NAME

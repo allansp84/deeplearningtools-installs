@@ -8,7 +8,6 @@
 # https://github.com/allansp84/simple-hp                                        #
 #                                                                               #
 #                                                                               #
-#                                                                               #
 # PS: To undo the installation, plase execute the command                       #
 # rm -rf ~/devel/simplehp-env/*.                                                #
 #*******************************************************************************#

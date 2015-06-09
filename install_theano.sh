@@ -8,12 +8,10 @@
 # http://deeplearning.net/software/theano/index.html#                           #
 #                                                                               #
 #                                                                               #
-#                                                                               #
 # PS: To undo the installation, plase execute the command                       #
 # rm -rf ~/devel/caffe-env/caffe and delete the two variables defined in        #
 # your ~/.bashrc.                                                               #
 #*******************************************************************************#
-
 
 VENV_NAME=theano-env
 PROJECT_DIR=$HOME/devel/$VENV_NAME
