@@ -13,11 +13,13 @@ Virtualenv é uma ferramenta que nos permite criar ambientes virtuais de desenvo
 ### Virtualenv e Virtualenvwrapper
 
 Virtualenv é uma ferramenta que nos permite criar  e gerenciar ambientes virtuais. Entretanto, existem um extensão desta ferramenta, o virtualenvwrapper, que facilitam muito o trabalho de criação e gerenciamento dos ambientes virtuais, além de organizar todo o ambiente em um só lugar. O virtualenvwrapper nos fornece uma série de comando úteis para gerenciar os ambientes virtuais, sendo que os principais comandos são:
-mkvirtualenv project_deep – Cria um ambiente virtual com o nome project_deep;
-mkproject  project_deep – Cria um ambiente virtual com o nome project_deep e cria um diretório para o desenvolvimento do projeto;
-rmvirtualenv  project_deep – Remove o ambiente virtual project_deep;
-workon  project_deep – Ativa o ambiente virtual
-deactive – Desativa o ambiente virtual
+
+* mkvirtualenv project_deep – Cria um ambiente virtual com o nome project_deep;
+* mkproject  project_deep – Cria um ambiente virtual com o nome project_deep e cria um diretório para o desenvolvimento do projeto;
+* rmvirtualenv  project_deep – Remove o ambiente virtual project_deep;
+* workon  project_deep – Ativa o ambiente virtual
+* deactive – Desativa o ambiente virtual
+
 Mais informações sobre este e outros comandos podem ser obtidas em http://virtualenvwrapper.readthedocs.org/en/latest/index.html
 
 
