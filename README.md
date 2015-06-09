@@ -30,15 +30,15 @@ Mais informações sobre este e outros comandos podem ser obtidas em http://virt
 
 Os scripts disponíveis devem ser executados na ordem que segue:
 ```
-> 1. Execute o script *install_dependences.sh* para instalar as dependências;
+> 1. Execute o script install_dependences.sh para instalar as dependências;
 
 > 2. Reinicie a seção do bash para que as dependências seja reconhecida pelo sistema;
 
-> 3. Execute o script *install_caffe.sh* para instalar o framework Caffe e suas dependências de modulos python no ambiente virtual **caffe-env**;
+> 3. Execute o script install_caffe.sh para instalar o framework Caffe e suas dependências de modulos python no ambiente virtual ``caffe-env``;
 
-> 4. Execute o script *install_theano.sh* para instalar o Theano e suas dependências de modulos python no ambiente virtual **theano-env**;
+> 4. Execute o script 'install_theano.sh' para instalar o Theano e suas dependências de modulos python no ambiente virtual **theano-env**;
 
-> 5. Execute o script *install_simplehp.sh* para instalar o Simple-Hp  e suas dependências de modulos python  no ambiente virtual **simplehp-env**. Esta ferramenta é usado para otimizações de arquiteturas "deep".
+> 5. Execute o script `install_simplehp.sh` para instalar o Simple-Hp  e suas dependências de modulos python  no ambiente virtual **simplehp-env**. Esta ferramenta é usado para otimizações de arquiteturas "deep".
 ```
 
 Estes scripts instala no diretório /home/user/local os seguintes softwares:
