@@ -41,7 +41,7 @@ Os scripts disponíveis devem ser executados na ordem que segue:
 5. Execute o script `install_simplehp.sh` para instalar o Simple-Hp  e suas dependências de modulos python  no ambiente virtual simplehp-env. Esta ferramenta é usado para otimizações de arquiteturas "deep".
 ```
 
-Estes scripts instala no diretório /home/user/local os seguintes softwares:
+Estes scripts instala no diretório /home/user os seguintes softwares:
 
 * Torch7 (última versão);
 * Boost (versão 1.55);
@@ -49,4 +49,7 @@ Estes scripts instala no diretório /home/user/local os seguintes softwares:
 * OpenBLAS (última versão);
 * Blitz (versão 0.10);
 * Bison (versão 2.3);
+* Caffe
+* Theano
+* Simple-HP
 
