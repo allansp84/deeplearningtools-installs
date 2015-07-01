@@ -43,7 +43,7 @@ mkdir -p $PROJECT_DIR
 
 echo "*** downloading the Caffe Framework ***"
 cd $PROJECT_DIR
-git clone git@github.com:BVLC/caffe.git caffe
+git clone https://github.com/BVLC/caffe.git caffe
 cd caffe
 
 echo "*** installing Python requirements ***"
