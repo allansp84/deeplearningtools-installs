@@ -25,7 +25,7 @@ if [ "$CUDA_ROOT" = "" ]; then
     echo "export PATH=\$CUDA_ROOT/bin:\$PATH" >> ~/.bashrc
     echo "export LD_LIBRARY_PATH=\$CUDA_ROOT/lib64:\$LD_LIBRARY_PATH" >> ~/.bashrc
     echo  "" >> ~/.bashrc
-    export $CUDA_ROOT
+    export CUDA_ROOT
 else
     echo "CUDA_ROOT: '$CUDA_ROOT'";
 fi
