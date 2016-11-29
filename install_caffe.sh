@@ -19,7 +19,7 @@ PYTHONPATH=$PROJECT_DIR/caffe/python
 CAFFE_ROOT=$PROJECT_DIR/caffe
 
 if [ "$CUDA_ROOT" = "" ]; then
-    CUDA_ROOT=/usr/local/cuda-7.0
+    CUDA_ROOT=/usr/local/cuda
     echo  "" >> ~/.bashrc
     echo "export CUDA_ROOT=/usr/local/cuda" >> ~/.bashrc
     echo "export PATH=\$CUDA_ROOT/bin:\$PATH" >> ~/.bashrc
